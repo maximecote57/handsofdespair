@@ -1,38 +1,88 @@
-.App {
+@font-face {
+  font-family: "Gouldy";
+  src: url("./Goudy Old Style Regular.ttf") format("ttf");
+}
+
+body {
+  background-color: black;
+  font-family: Gouldy;
+  padding: 50px;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.app-header {
   text-align: center;
+  margin-top: 50vh;
+  transform: translateY(-50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-header__title {
+  color: white;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.right-section {
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.right-section__title {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right-section__logo {
+  max-width: 300px;
+  margin-top: 50px;
+}
+
+.container {
+  text-align: center;
+}
+#992516 .link-wrapper {
+  margin-bottom: 5px;
+}
+
+a {
+  color: white;
+}
+
+.title-container {
+  margin-bottom: 40px;
+}
+
+.cover {
+  max-width: 500px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.download-link {
+  font-size: 20px;
+}
+
+.spacer {
+  margin-top: 10px;
+}
+
+.band-picture {
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.right-section__title--small {
+  font-size: 14px;
+}
+
+.main-title {
+  color: #a02818;
+}
+
+h3 {
+  margin-top: 50px;
 }
